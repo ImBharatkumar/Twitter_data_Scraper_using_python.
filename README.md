@@ -1,19 +1,19 @@
 # Twitter_data_Scraper_using_python.
 I have created a web app named TwitterdataScraper using Streamlit framework and python.
 
-=>Why snscrape?
+## =>Why snscrape?
 '''Snscrape is another approach for scraping information from Twitter that does not require the use of an API. Snscrape allows you to scrape basic information such as a user's profile, tweet content, source, and so on.
 Snscrape is not limited to Twitter, but can also scrape content from other prominent social media networks like Facebook, Instagram, and others.
 Its advantages are that there are no limits to the number of tweets you can retrieve or the window of tweets (that is, the date range of tweets). So Snscrape allows you to retrieve old data.
 '''
-=>work flow
-#step 1) install streamlit in conda environment and make a directory.
+## =>work flow
+#### step 1) install streamlit in conda environment and make a directory.
 install using- cmd => pip install streamlit
 
-#step2) creat a python file in same directory.
+#### step2) creat a python file in same directory.
 
-#step3)code=>
-'''# Import the all necessary libraries
+#### step3)code=>
+```# Import the all necessary libraries
 
 import snscrape.modules.twitter as sntwitter
 import pandas as pd
@@ -22,13 +22,13 @@ import streamlit as st
 import json
 import csv
 
-# Establishing connection with mongodb
+#Establishing connection with mongodb
 client = pymongo.MongoClient("mongodb://localhost:27017")
 #creating database and collection to store data
 db = client["Tweets_data"]
 col = db.Scrape_data
 
-# GUI interface
+#GUI interface
 st.image('./kpk.png', width=100)
 st.header("Twitter data scraper ")
 limit = st.number_input("enter number of data you want to scrape")
@@ -40,7 +40,7 @@ cols = ['date', 'id', 'url', 'tweet_content', 'reply_count', 'retweet_count', 'l
 
 st.header("Hit the button to scrape data")
 
-# below code will scrape data from twitter
+#below code will scrape data from twitter
 if st.button("Scrape"):
     def tweet_scraper(limit, query):
         for tweet in sntwitter.TwitterSearchScraper("query" + ' since:2023-01-01 lang:pt').get_items():
@@ -92,12 +92,13 @@ if st.button("Download csv"):
         f.write(csv)
 if st.checkbox("Display."):
     with open('temp1.csv', 'r') as f:
-        st.write(f.read())
-        
-'''
+        st.write(f.read()) .
+```
 
-#step4) open terminal from conda environment where you have installed streamlit.
+
+
+#### step4) open terminal from conda environment where you have installed streamlit.
 enter cmd=>streamlit run name.py file
 
-#Result:
-'''you will be directed to a interactive website , where you can scrape and download the twitter data in json and csv format''' 
+#### Result:
+#you will be directed to a interactive website , where you can scrape and download the twitter data in json and csv format
