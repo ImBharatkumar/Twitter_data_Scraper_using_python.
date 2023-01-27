@@ -101,4 +101,4 @@ if st.checkbox("Display."):
 enter cmd=>streamlit run name.py file
 
 #### Result:
-#you will be directed to a interactive website , where you can scrape and download the twitter data in json and csv format
+#you will be re-directed to a interactive website , where you can scrape and download the twitter data in json and csv format
