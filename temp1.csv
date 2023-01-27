@@ -1,0 +1,23 @@
+,_id,date,id,url,tweet_content,reply_count,retweet_count,language,source,like_count
+0,63d2b0dbb976654802d63bd8,2023-01-26 15:39:23,1618634715166277638,https://twitter.com/lmjmerak/status/1618634715166277638,"as reuniões da tarde foram canceladas e eu não sei se começo a query da planilha q preciso entregar só mês q vem, se eu adianto uns treinamentos ou se eu chuto o balde e vou dormir
+
+é uma delícia ser competente o suficiente pra já ter tudo entregue antes do prazo e poder escolher",0,0,pt,"<a href=""http://twitter.com/download/android"" rel=""nofollow"">Twitter for Android</a>",0
+1,63d2b0dbb976654802d63bd9,2023-01-26 14:52:48,1618622992938061826,https://twitter.com/flaviolopes_ssa/status/1618622992938061826,"@barretodotcom @sseraphini A extensão pegava o ID do cupom, ia até a página da sefaz pra consulta dele. Lá ela pegava o seu status e gerava a query sql pro suporte inserir no banco e atualizar. Hoje eu provavelmente consumiria direto da API da sefaz, mas na época foi um avanço enorme pq eram mts cupons rs",1,0,pt,"<a href=""https://mobile.twitter.com"" rel=""nofollow"">Twitter Web App</a>",0
+2,63d2b0dbb976654802d63bda,2023-01-26 14:14:33,1618613365185859585,https://twitter.com/marciopetry/status/1618613365185859585,"@TheBarbosaCarai @josiasdmartins @Tecnoblog - OpenAI coleta e armazens todas as ""queries"" sentenciadas pelos usuários (tá no contrato de uso da plataforma)
+
+- Google ainda se preocupava com questões morais e éticas em relação a adoção da IA. Perigosamente isso começou a mudar dentro da compania desde dezembro 2022.",1,0,pt,"<a href=""http://twitter.com/download/android"" rel=""nofollow"">Twitter for Android</a>",0
+3,63d2b0dbb976654802d63bdb,2023-01-26 13:05:43,1618596043960242179,https://twitter.com/codearis/status/1618596043960242179,"@ffrdev e sanitizar a string antes de enviar pra query?
+
+acredito que um string.replaceAll() seja de bom uso",0,0,pt,"<a href=""http://twitter.com/download/iphone"" rel=""nofollow"">Twitter for iPhone</a>",0
+4,63d2b0dbb976654802d63bdc,2023-01-26 12:23:19,1618585371218182149,https://twitter.com/Layvil/status/1618585371218182149,"Graças ao ChatGPT eu consegui fazer a maldita query que eu tanto precisava, queria colocar aqui mas a miseravel é tão grande que não cabe",0,0,pt,"<a href=""https://mobile.twitter.com"" rel=""nofollow"">Twitter Web App</a>",0
+5,63d2b0dbb976654802d63bdd,2023-01-26 12:06:06,1618581041001922561,https://twitter.com/pontemarilia/status/1618581041001922561,@simoesrenato @rponte Query e parameter também são campeãs de mispronunciation entre devs. 🥰,1,0,pt,"<a href=""http://twitter.com/download/iphone"" rel=""nofollow"">Twitter for iPhone</a>",1
+6,63d2b0dbb976654802d63bde,2023-01-26 11:56:18,1618578572280737793,https://twitter.com/alanqcb/status/1618578572280737793,@Pablo_TheBot Só você tem acesso a sua base de dados. Tirem suas conclusões.,0,0,pt,"<a href=""http://twitter.com/download/android"" rel=""nofollow"">Twitter for Android</a>",2
+7,63d2b0dbb976654802d63bdf,2023-01-26 11:49:09,1618576773398302720,https://twitter.com/vitorrubio/status/1618576773398302720,"@tcarvalho87 select * from A  —tudo que tem em A
+union
+select A.* from B LEFT JOIN A on ….
+where https://t.co/QBF56RVlFu is null
+
+não tem query q vc não possa reescrever com LEFT JOIN",0,0,pt,"<a href=""http://twitter.com/download/iphone"" rel=""nofollow"">Twitter for iPhone</a>",0
+8,63d2b0dbb976654802d63be0,2023-01-26 11:40:36,1618574623062523904,https://twitter.com/JesusQuery/status/1618574623062523904,"@PensadorNordest @marianaferrerw @NetflixBrasil Se comparar com o caso do jogador de futebol da Espanha, estamos vivendo em um feudo que chamam de país.
+A moça sofreu o que sofreu e ainda foi humilhada no tribunal, o país todo viu, e segue o jogo como se nada tivesse acontecido.",0,0,pt,"<a href=""http://twitter.com/download/android"" rel=""nofollow"">Twitter for Android</a>",3
+9,63d2b0dbb976654802d63be1,2023-01-26 11:08:02,1618566428214558720,https://twitter.com/1rafabarba/status/1618566428214558720,"@fabriciorby @ffrdev Eu já cometi esse erro, sou júnior e no meu primeiro projeto web eu se quer sabia que isso existia, colocava as variáveis tudo chapada na query. só descobri pq pedi que um cara mais experiente criticasse o código e ele me deu esse toque.",1,0,pt,"<a href=""http://twitter.com/download/android"" rel=""nofollow"">Twitter for Android</a>",1
