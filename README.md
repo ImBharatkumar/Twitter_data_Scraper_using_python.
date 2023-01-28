@@ -98,7 +98,7 @@ if st.checkbox("Display."):
 
 
 #### step4) open terminal from conda environment where you have installed streamlit.
-enter cmd=>streamlit run name.py file
+enter cmd=>streamlit run GUI.py file
 
 #### Result:
 #you will be re-directed to a interactive website , where you can scrape and download the twitter data in json and csv format
