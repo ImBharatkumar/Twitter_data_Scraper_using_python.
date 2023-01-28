@@ -102,3 +102,5 @@ enter cmd=>streamlit run name.py file
 
 #### Result:
 #you will be re-directed to a interactive website , where you can scrape and download the twitter data in json and csv format
+
+#### References [streamlit](https://docs.streamlit.io/),[snscrape](https://www.freecodecamp.org/news/python-web-scraping-tutorial/)
